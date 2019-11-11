@@ -13,15 +13,15 @@ public class Project {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private long id;
 
-    @NotBlank(message = "Project Name is required")
+    @NotBlank(message = "Project Name is Required")
     private String projectName;
 
-    @NotBlank(message = "Project identifier is reuqired")
+    @NotBlank(message = "Project IDentifier is Reuqired")
     @Size(min = 4, max = 5, message = "Please use 4 to 5 charachters")
     @Column(updatable = false,unique = true)
     private String projectIdentifier;
 
-    @NotBlank(message = "project description is required")
+    @NotBlank(message = "Project Description is Required")
     private String description;
 
     @JsonFormat(pattern = "yyyy-m-dd")
@@ -31,13 +31,12 @@ public class Project {
 
 
     @JsonFormat(pattern = "yyyy-m-dd")
+    @Column(updatable = false)
     private Date created_At;
     @JsonFormat(pattern = "yyyy-m-dd")
     private Date updated_At;
 
-    public Project(){
-
-    }
+    public Project(){ }
 
     public long getId() {
         return id;

@@ -2,17 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e91bf820-8f9a-4744-9841-e76e280c2c7c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/projects/ppmtool/domain/Project.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/projects/ppmtool/exceptions/CustomResponseEntityExceptionHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/projects/ppmtool/exceptions/ProjectIdException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/projects/ppmtool/exceptions/ProjectIdExceptionResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/projects/ppmtool/repositories/ProjectRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/projects/ppmtool/services/MapValidationErrorService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/projects/ppmtool/services/ProjectService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/projects/ppmtool/web/ProjectController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/projects/ppmtool/domain/Project.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/projects/ppmtool/domain/Project.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/projects/ppmtool/web/ProjectController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/projects/ppmtool/web/ProjectController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dev/projects/ppmtool/domain/Project.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dev/projects/ppmtool/domain/Project.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dev/projects/ppmtool/web/ProjectController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dev/projects/ppmtool/web/ProjectController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ppmtool-client/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../ppmtool-client/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ppmtool-client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../ppmtool-client/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ppmtool-client/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../ppmtool-client/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ppmtool-client/src/components/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/../ppmtool-client/src/components/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ppmtool-client/src/components/DashBoard.js" beforeDir="false" afterPath="$PROJECT_DIR$/../ppmtool-client/src/components/DashBoard.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ppmtool-client/src/css/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/../ppmtool-client/src/css/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ppmtool-client/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/../ppmtool-client/src/index.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -79,6 +80,11 @@
       <updated>1573217338494</updated>
       <workItem from="1573217341920" duration="17418000" />
       <workItem from="1573250095341" duration="37000" />
+      <workItem from="1573290667524" duration="2326000" />
+      <workItem from="1573385400156" duration="1880000" />
+      <workItem from="1573421420333" duration="1112000" />
+      <workItem from="1573454414281" duration="2126000" />
+      <workItem from="1573493881707" duration="2501000" />
     </task>
     <servers />
   </component>
