@@ -2,24 +2,46 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e91bf820-8f9a-4744-9841-e76e280c2c7c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/projects/ppmtool/domain/Backlog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/projects/ppmtool/domain/ProjectTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/projects/ppmtool/repositories/BacklogRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/projects/ppmtool/repositories/ProjectTaskRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/projects/ppmtool/services/ProjectTaskService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/projects/ppmtool/web/BacklogController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/dev/projects/ppmtool/domain/Project.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/projects/ppmtool/domain/Project.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dev/projects/ppmtool/web/ProjectController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/projects/ppmtool/web/ProjectController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/projects/ppmtool/services/MapValidationErrorService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/projects/ppmtool/services/MapValidationErrorService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/projects/ppmtool/services/ProjectService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/projects/ppmtool/services/ProjectService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/dev/projects/ppmtool/domain/Project.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dev/projects/ppmtool/domain/Project.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/dev/projects/ppmtool/web/ProjectController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dev/projects/ppmtool/web/ProjectController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ppmtool-client/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../ppmtool-client/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dev/projects/ppmtool/services/MapValidationErrorService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dev/projects/ppmtool/services/MapValidationErrorService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dev/projects/ppmtool/services/ProjectService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dev/projects/ppmtool/services/ProjectService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ppmtool-client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../ppmtool-client/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ppmtool-client/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../ppmtool-client/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ppmtool-client/src/components/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/../ppmtool-client/src/components/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ppmtool-client/src/components/DashBoard.js" beforeDir="false" afterPath="$PROJECT_DIR$/../ppmtool-client/src/components/DashBoard.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ppmtool-client/src/css/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/../ppmtool-client/src/css/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ppmtool-client/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/../ppmtool-client/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ppmtool-client/src/actions/projectActions.js" beforeDir="false" afterPath="$PROJECT_DIR$/../ppmtool-client/src/actions/projectActions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ppmtool-client/src/actions/types.js" beforeDir="false" afterPath="$PROJECT_DIR$/../ppmtool-client/src/actions/types.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ppmtool-client/src/components/ProjectItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/../ppmtool-client/src/components/ProjectItem.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ppmtool-client/src/components/UpdateProject.js" beforeDir="false" afterPath="$PROJECT_DIR$/../ppmtool-client/src/components/UpdateProject.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ppmtool-client/src/reducers/projectReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/../ppmtool-client/src/reducers/projectReducer.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -85,6 +107,8 @@
       <workItem from="1573421420333" duration="1112000" />
       <workItem from="1573454414281" duration="2126000" />
       <workItem from="1573493881707" duration="2501000" />
+      <workItem from="1573590354427" duration="2009000" />
+      <workItem from="1573743128422" duration="15395000" />
     </task>
     <servers />
   </component>

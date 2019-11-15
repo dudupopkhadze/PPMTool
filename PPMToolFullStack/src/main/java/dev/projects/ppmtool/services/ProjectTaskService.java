@@ -8,14 +8,14 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 @Service
-public class ProjecetTaskService {
+public class ProjectTaskService {
     @Autowired
     private BacklogRepository backlogRepository;
 
     @Autowired
     private ProjectTaskRepository projectTaskRepository;
 
-    public ProjecetTaskService() {
+    public ProjectTaskService() {
 
     }
 
@@ -24,11 +24,12 @@ public class ProjecetTaskService {
         projectTask.setBacklog(backlog);
         Integer backlogSequence = backlog.getPTSequence();
         backlogSequence++;
+        backlog.setPTSequence(backlogSequence);
 
         projectTask.setProjectSequence(projectIdentifier +"-"+backlogSequence);
         projectTask.setProjectIndetrifer(projectIdentifier);
 
-        if(projectTask.getPriority() == 0 || projectTask.getPriority() == null){
+        if(projectTask.getPriority() == null){
             projectTask.setPriority(3);
         }
 

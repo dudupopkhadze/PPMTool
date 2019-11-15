@@ -1,7 +1,9 @@
 package dev.projects.ppmtool.services;
 
+import dev.projects.ppmtool.domain.Backlog;
 import dev.projects.ppmtool.domain.Project;
 import dev.projects.ppmtool.exceptions.ProjectIdException;
+import dev.projects.ppmtool.repositories.BacklogRepository;
 import dev.projects.ppmtool.repositories.ProjectRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -12,9 +14,22 @@ public class ProjectService {
     @Autowired
     private ProjectRepository projectRepository;
 
+    @Autowired
+    private BacklogRepository backlogRepository;
+
     public Project saveOrUpdateProject(Project project){
         try{
             project.setProjectIdentifier(project.getProjectIdentifier().toUpperCase());
+
+            if(project.getId()==null){
+                Backlog backlog = new Backlog();
+                project.setBacklog(backlog);
+                backlog.setProject(project);
+                backlog.setProjectIdentifier(project.getProjectIdentifier());
+            } else {
+                project.setBacklog(backlogRepository.findByProjectIdentifier(project.getProjectIdentifier()));
+            }
+
             return  projectRepository.save(project);
         } catch (Exception e){
             throw  new ProjectIdException("Project ID '"+project.getProjectIdentifier().toUpperCase()+"' Already Exists" );
