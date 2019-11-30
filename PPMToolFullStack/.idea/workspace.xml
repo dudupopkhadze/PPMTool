@@ -3,15 +3,15 @@
   <component name="ChangeListManager">
     <list default="true" id="e91bf820-8f9a-4744-9841-e76e280c2c7c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dev/projects/ppmtool/services/ProjectTaskService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/projects/ppmtool/services/ProjectTaskService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/dev/projects/ppmtool/services/ProjectTaskService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dev/projects/ppmtool/services/ProjectTaskService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ppmtool-client/src/actions/projectActions.js" beforeDir="false" afterPath="$PROJECT_DIR$/../ppmtool-client/src/actions/projectActions.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ppmtool-client/src/components/AddProject.js" beforeDir="false" afterPath="$PROJECT_DIR$/../ppmtool-client/src/components/AddProject.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ppmtool-client/src/components/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/../ppmtool-client/src/components/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/projects/ppmtool/web/BacklogController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/projects/ppmtool/web/BacklogController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dev/projects/ppmtool/web/BacklogController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dev/projects/ppmtool/web/BacklogController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ppmtool-client/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../ppmtool-client/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ppmtool-client/src/actions/backlogActions.js" beforeDir="false" afterPath="$PROJECT_DIR$/../ppmtool-client/src/actions/backlogActions.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ppmtool-client/src/components/ProjectBoard/AddProjectTask.js" beforeDir="false" afterPath="$PROJECT_DIR$/../ppmtool-client/src/components/ProjectBoard/AddProjectTask.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ppmtool-client/src/components/ProjectBoard/Backlog.js" beforeDir="false" afterPath="$PROJECT_DIR$/../ppmtool-client/src/components/ProjectBoard/Backlog.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ppmtool-client/src/components/ProjectBoard/ProjectBoard.js" beforeDir="false" afterPath="$PROJECT_DIR$/../ppmtool-client/src/components/ProjectBoard/ProjectBoard.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ppmtool-client/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/../ppmtool-client/src/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ppmtool-client/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../ppmtool-client/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ppmtool-client/src/components/ProjectBoard/ProjectTask.js" beforeDir="false" afterPath="$PROJECT_DIR$/../ppmtool-client/src/components/ProjectBoard/ProjectTask.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ppmtool-client/src/components/ProjectBoard/UpdateProjectTask.js" beforeDir="false" afterPath="$PROJECT_DIR$/../ppmtool-client/src/components/ProjectBoard/UpdateProjectTask.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -105,7 +105,10 @@
       <workItem from="1574407578900" duration="6716000" />
       <workItem from="1574545663745" duration="855000" />
       <workItem from="1574675747263" duration="974000" />
-      <workItem from="1574791100889" duration="1823000" />
+      <workItem from="1574791100889" duration="2423000" />
+      <workItem from="1574956706956" duration="3087000" />
+      <workItem from="1575052349611" duration="1698000" />
+      <workItem from="1575126063570" duration="4458000" />
     </task>
     <servers />
   </component>

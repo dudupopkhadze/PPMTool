@@ -46,13 +46,13 @@ public class BacklogController {
     }
 
     @GetMapping("/{backlog_id}/{pt_id}")
-    public ResponseEntity<?> getProjectTast(@PathVariable String backlog_id, @PathVariable String pt_id){
+    public ResponseEntity<?> getProjectTask(@PathVariable String backlog_id, @PathVariable String pt_id){
         ProjectTask projectTask = projectTaskService.findProjectTasktBySequence(backlog_id,pt_id);
         return new ResponseEntity<ProjectTask>(projectTask,HttpStatus.OK);
     }
 
     @PatchMapping("/{backlog_id}/{pt_id}")
-    public  ResponseEntity<?> updateProjectTast(@Valid @RequestBody ProjectTask updatedTask,BindingResult result,
+    public  ResponseEntity<?> updateProjectTask(@Valid @RequestBody ProjectTask updatedTask,BindingResult result,
                                                 @PathVariable String backlog_id, @PathVariable  String pt_id){
         ResponseEntity<?> errorMap = mapValidationErrorService.MapValidationErrorService(result);
         if(errorMap != null) return errorMap;
@@ -63,7 +63,7 @@ public class BacklogController {
     }
 
     @DeleteMapping("/{backlog_id}/{pt_id}")
-    public ResponseEntity<?> deleteProjectTast(@PathVariable String backlog_id, @PathVariable  String pt_id){
+    public ResponseEntity<?> deleteProjectTask(@PathVariable String backlog_id, @PathVariable  String pt_id){
         projectTaskService.deleteProjectTastByPSequence(backlog_id,pt_id);
         return new ResponseEntity<String>("Project Task With ID:'"+pt_id+"' was Deleted Successfully",HttpStatus.OK);
     }

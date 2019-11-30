@@ -16,8 +16,15 @@ class AddProjectTask extends Component {
       status: "",
       dueDate: "",
       priority: 0,
-      projectIdentifier: id
+      projectIdentifier: id,
+      errors: {}
     };
+  }
+
+  componentWillReceiveProps(nextProps) {
+    if (nextProps.errors) {
+      this.setState({ errors: nextProps.errors });
+    }
   }
 
   onChange = e => {
@@ -35,9 +42,6 @@ class AddProjectTask extends Component {
       dueDate: this.state.dueDate
     };
 
-    console.log(11111);
-    
-
     this.props.addProjectTask(
       this.state.projectIdentifier,
       newTask,
@@ -45,8 +49,11 @@ class AddProjectTask extends Component {
     );
   };
 
+
   render() {
     const { id } = this.props.match.params;
+    const { errors } = this.state;
+
     return (
       <div className="add-PBI">
         <div className="container">
@@ -56,19 +63,24 @@ class AddProjectTask extends Component {
                 Back to Project Board
               </Link>
 
-              <h4 className="display-4 text-center">Add Project Task</h4>
+              <h4 className="display-4 text-center">Update Project Task</h4>
               <p className="lead text-center">Project Name + Project Code</p>
 
               <form onSubmit={this.onSubmit}>
                 <div className="form-group">
                   <input
                     type="text"
-                    className="form-control form-control-lg"
+                    className={classnames("form-control form-control-lg ", {
+                      "is-invalid": errors.summary
+                    })}
                     name="summary"
                     placeholder="Project Task summary"
                     value={this.state.summary}
                     onChange={this.onChange}
                   />
+                  {errors.summary && (
+                    <div className="invalid-feedback"> {errors.summary} </div>
+                  )}
                 </div>
 
                 <div className="form-group">
@@ -134,7 +146,12 @@ class AddProjectTask extends Component {
 }
 
 AddProjectTask.propTypes = {
-  addProjectTask: PropTypes.func.isRequired
+  addProjectTask: PropTypes.func.isRequired,
+  errors: PropTypes.object.isRequired
 };
 
-export default connect(null, { addProjectTask })(AddProjectTask);
+const MapStateToProps = state => {
+  return { errors: state.errors };
+};
+
+export default connect(MapStateToProps, { addProjectTask })(AddProjectTask);

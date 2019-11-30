@@ -37,7 +37,7 @@ export const getProject = (id, history) => async dispatch => {
   }
 };
 
-export const deleteProject = (id, history) => async dispatch => {
+export const deleteProject = id => async dispatch => {
   if (window.confirm("Are You Sure? This Will Delete Project Permanently")) {
     await Axios.delete(`http://localhost:8080/api/project/${id}`);
     dispatch({
