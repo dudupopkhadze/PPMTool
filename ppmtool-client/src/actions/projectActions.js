@@ -3,7 +3,7 @@ import { GET_ERRORS, GET_PROJECTS, GET_PROJECT, DELETE_PROJECT } from "./types";
 
 export const createProject = (project, history) => async dispatch => {
   try {
-    await Axios.post("http://localhost:8080/api/project", project);
+    await Axios.post("/api/project", project);
     history.push("/dashboard");
     dispatch({
       type: GET_ERRORS,
@@ -18,7 +18,7 @@ export const createProject = (project, history) => async dispatch => {
 };
 
 export const getProjects = () => async dispatch => {
-  const res = await Axios.get("http://localhost:8080/api/project/all");
+  const res = await Axios.get("/api/project/all");
   dispatch({
     type: GET_PROJECTS,
     payload: res.data
@@ -27,7 +27,7 @@ export const getProjects = () => async dispatch => {
 
 export const getProject = (id, history) => async dispatch => {
   try {
-    const res = await Axios.get(`http://localhost:8080/api/project/${id}`);
+    const res = await Axios.get(`/api/project/${id}`);
     dispatch({
       type: GET_PROJECT,
       payload: res.data
@@ -39,7 +39,7 @@ export const getProject = (id, history) => async dispatch => {
 
 export const deleteProject = id => async dispatch => {
   if (window.confirm("Are You Sure? This Will Delete Project Permanently")) {
-    await Axios.delete(`http://localhost:8080/api/project/${id}`);
+    await Axios.delete(`/api/project/${id}`);
     dispatch({
       type: DELETE_PROJECT,
       payload: id
