@@ -1,5 +1,6 @@
 package dev.projects.ppmtool.domain;
 
+import com.fasterxml.jackson.annotation.JsonFormat;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 
 import javax.persistence.*;
@@ -19,11 +20,14 @@ public class ProjectTask {
     private String acceptanceCriteria;
     private String status;
     private Integer priority;
+    @JsonFormat(pattern = "yyyy-mm-dd")
     private Date dueDate;
 
     @Column(updatable = false)
     private String projectIndetrifer;
+    @JsonFormat(pattern = "yyyy-mm-dd")
     private Date created_at;
+    @JsonFormat(pattern = "yyyy-mm-dd")
     private Date updated_at;
 
     @ManyToOne(fetch = FetchType.EAGER)

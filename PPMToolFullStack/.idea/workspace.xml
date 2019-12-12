@@ -2,34 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e91bf820-8f9a-4744-9841-e76e280c2c7c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/projects/ppmtool/payload/JWTLoginSuccessResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/projects/ppmtool/payload/LoginRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/projects/ppmtool/security/JWTTokenProvider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/projects/ppmtool/security/JwtAuthenticationFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/projects/ppmtool/security/SecurityConstants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/projects/ppmtool/services/CustomUserDetailsService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PPMToolFullStack.iml" beforeDir="false" afterPath="$PROJECT_DIR$/PPMToolFullStack.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dev/projects/ppmtool/domain/Project.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/projects/ppmtool/domain/Project.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dev/projects/ppmtool/domain/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/projects/ppmtool/domain/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dev/projects/ppmtool/repositories/ProjectRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/projects/ppmtool/repositories/ProjectRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dev/projects/ppmtool/repositories/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/projects/ppmtool/repositories/UserRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dev/projects/ppmtool/security/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/projects/ppmtool/security/SecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dev/projects/ppmtool/services/ProjectService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/projects/ppmtool/services/ProjectService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dev/projects/ppmtool/services/ProjectTaskService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/projects/ppmtool/services/ProjectTaskService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dev/projects/ppmtool/web/BacklogController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/projects/ppmtool/web/BacklogController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dev/projects/ppmtool/web/ProjectController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/projects/ppmtool/web/ProjectController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dev/projects/ppmtool/web/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/projects/ppmtool/web/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/dev/projects/ppmtool/domain/Project.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dev/projects/ppmtool/domain/Project.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/dev/projects/ppmtool/domain/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dev/projects/ppmtool/domain/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/dev/projects/ppmtool/repositories/ProjectRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dev/projects/ppmtool/repositories/ProjectRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/dev/projects/ppmtool/repositories/UserRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dev/projects/ppmtool/repositories/UserRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/dev/projects/ppmtool/security/SecurityConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dev/projects/ppmtool/security/SecurityConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/dev/projects/ppmtool/services/ProjectService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dev/projects/ppmtool/services/ProjectService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/projects/ppmtool/domain/ProjectTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/projects/ppmtool/domain/ProjectTask.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/projects/ppmtool/security/SecurityConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/projects/ppmtool/security/SecurityConstants.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/dev/projects/ppmtool/services/ProjectTaskService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dev/projects/ppmtool/services/ProjectTaskService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/dev/projects/ppmtool/web/BacklogController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dev/projects/ppmtool/web/BacklogController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/dev/projects/ppmtool/web/ProjectController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dev/projects/ppmtool/web/ProjectController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/dev/projects/ppmtool/web/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dev/projects/ppmtool/web/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ppmtool-client/src/actions/types.js" beforeDir="false" afterPath="$PROJECT_DIR$/../ppmtool-client/src/actions/types.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ppmtool-client/src/components/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/../ppmtool-client/src/components/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ppmtool-client/src/components/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/../ppmtool-client/src/components/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ppmtool-client/src/components/UpdateProject.js" beforeDir="false" afterPath="$PROJECT_DIR$/../ppmtool-client/src/components/UpdateProject.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -160,7 +142,9 @@
       <workItem from="1575739219982" duration="7616000" />
       <workItem from="1575921780984" duration="4961000" />
       <workItem from="1575980264667" duration="2013000" />
-      <workItem from="1576086149149" duration="7433000" />
+      <workItem from="1576086149149" duration="8216000" />
+      <workItem from="1576161676000" duration="469000" />
+      <workItem from="1576179134987" duration="3289000" />
     </task>
     <servers />
   </component>
@@ -181,50 +165,54 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
+    <state x="345" y="68" key="#Assign_Data_Sources" timestamp="1576191729125">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="345" y="68" key="#Assign_Data_Sources/0.0.1536.824/1920.0.1536.824@0.0.1536.824" timestamp="1576191729125" />
     <state x="574" y="121" key="#com.intellij.ide.util.MemberChooser" timestamp="1575926157327">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="574" y="121" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824/1920.0.1536.824@0.0.1536.824" timestamp="1575926157327" />
     <state x="574" y="121" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1575549670522" />
-    <state width="1386" height="170" key="GridCell.Tab.0.bottom" timestamp="1576092042700">
+    <state width="1386" height="170" key="GridCell.Tab.0.bottom" timestamp="1576192602967">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1386" height="170" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1536.824@0.0.1536.824" timestamp="1576092042700" />
+    <state width="1386" height="170" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1536.824@0.0.1536.824" timestamp="1576192602967" />
     <state width="1386" height="170" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1576011083194" />
-    <state width="1386" height="170" key="GridCell.Tab.0.center" timestamp="1576092042700">
+    <state width="1386" height="170" key="GridCell.Tab.0.center" timestamp="1576192602967">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1386" height="170" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1536.824@0.0.1536.824" timestamp="1576092042700" />
+    <state width="1386" height="170" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1536.824@0.0.1536.824" timestamp="1576192602967" />
     <state width="1386" height="170" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1576011083194" />
-    <state width="1386" height="170" key="GridCell.Tab.0.left" timestamp="1576092042700">
+    <state width="1386" height="170" key="GridCell.Tab.0.left" timestamp="1576192602967">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1386" height="170" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1536.824@0.0.1536.824" timestamp="1576092042700" />
+    <state width="1386" height="170" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1536.824@0.0.1536.824" timestamp="1576192602967" />
     <state width="1386" height="170" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1576011083193" />
-    <state width="1386" height="170" key="GridCell.Tab.0.right" timestamp="1576092042700">
+    <state width="1386" height="170" key="GridCell.Tab.0.right" timestamp="1576192602967">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1386" height="170" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1536.824@0.0.1536.824" timestamp="1576092042700" />
+    <state width="1386" height="170" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1536.824@0.0.1536.824" timestamp="1576192602967" />
     <state width="1386" height="170" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1576011083194" />
-    <state width="1386" height="170" key="GridCell.Tab.1.bottom" timestamp="1576092042700">
+    <state width="1386" height="170" key="GridCell.Tab.1.bottom" timestamp="1576192602967">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1386" height="170" key="GridCell.Tab.1.bottom/0.0.1536.824/1920.0.1536.824@0.0.1536.824" timestamp="1576092042700" />
+    <state width="1386" height="170" key="GridCell.Tab.1.bottom/0.0.1536.824/1920.0.1536.824@0.0.1536.824" timestamp="1576192602967" />
     <state width="1386" height="170" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1576011083196" />
-    <state width="1386" height="170" key="GridCell.Tab.1.center" timestamp="1576092042700">
+    <state width="1386" height="170" key="GridCell.Tab.1.center" timestamp="1576192602967">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1386" height="170" key="GridCell.Tab.1.center/0.0.1536.824/1920.0.1536.824@0.0.1536.824" timestamp="1576092042700" />
+    <state width="1386" height="170" key="GridCell.Tab.1.center/0.0.1536.824/1920.0.1536.824@0.0.1536.824" timestamp="1576192602967" />
     <state width="1386" height="170" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1576011083195" />
-    <state width="1386" height="170" key="GridCell.Tab.1.left" timestamp="1576092042700">
+    <state width="1386" height="170" key="GridCell.Tab.1.left" timestamp="1576192602967">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1386" height="170" key="GridCell.Tab.1.left/0.0.1536.824/1920.0.1536.824@0.0.1536.824" timestamp="1576092042700" />
+    <state width="1386" height="170" key="GridCell.Tab.1.left/0.0.1536.824/1920.0.1536.824@0.0.1536.824" timestamp="1576192602967" />
     <state width="1386" height="170" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1576011083195" />
-    <state width="1386" height="170" key="GridCell.Tab.1.right" timestamp="1576092042700">
+    <state width="1386" height="170" key="GridCell.Tab.1.right" timestamp="1576192602967">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1386" height="170" key="GridCell.Tab.1.right/0.0.1536.824/1920.0.1536.824@0.0.1536.824" timestamp="1576092042700" />
+    <state width="1386" height="170" key="GridCell.Tab.1.right/0.0.1536.824/1920.0.1536.824@0.0.1536.824" timestamp="1576192602967" />
     <state width="1386" height="170" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1576011083196" />
     <state x="249" y="0" key="SettingsEditor" timestamp="1575739682692">
       <screen x="0" y="0" width="1536" height="824" />
