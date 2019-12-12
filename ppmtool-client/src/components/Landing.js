@@ -20,13 +20,13 @@ class Landing extends Component {
                         <div className="row">
                             <div className="col-md-12 text-center">
                                 <h1 className="display-3 mb-4">Personal Project Managment Tool</h1>
-                                <p className="lead">Create your account to join active projects or start your own</p>
+                                <p className="lead">Create Your Account Yo Join Active Projects Or Start Your Own</p>
                                 <hr />
                                 <Link to={"/register"} className="btn btn-lg btn-primary mr-2">
                                     Sign Up
                                 </Link>
                                 <Link to={"/login"} className="btn btn-lg btn-secondary mr-2">
-                                    Login
+                                    Log In
                                 </Link>
                             </div>
                         </div>
