@@ -12,3 +12,6 @@ Simple Tool Which Helps You To Orginize Your Tasks
 - Spring Security
 - Spring JPA
 - JSON Web Tokens
+
+
+# APP is Deployed At Heroku [PPMT](https://personalpmt.herokuapp.com/)
